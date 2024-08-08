@@ -1,32 +1,42 @@
-Periodic Table Database
-This repository contains the solution for the FreeCodeCamp Relational Database Project, where we create and interact with a PostgreSQL database representing the periodic table of elements.
+# Periodic Table Database
 
-Project Overview
-The project involves:
+This repository contains the solution for the [FreeCodeCamp Relational Database Project](https://www.freecodecamp.org/learn/relational-database/#build-a-periodic-table-database-project), where a PostgreSQL database is created to store and manage data about the periodic table of elements.
 
-Database Setup: Creating a PostgreSQL database with tables for elements, properties, and related data.
-Data Insertion: Populating the tables with relevant data.
-SQL Queries: Writing queries to retrieve specific information from the database.
-Files
-periodic_table.sql: SQL script to create the database and insert data.
-queries.sql: Example SQL queries to interact with the database.
-Getting Started
-Clone the repository:
+## Project Overview
 
-bash
-Copy code
-git clone https://github.com/Ramesh-kumawat/periodic-table-database.git
-Set up the PostgreSQL database:
+This project includes:
+- **Database Schema**: Setting up tables for elements, their properties, and relationships.
+- **Data Population**: Inserting detailed information about each element.
+- **SQL Queries**: Writing queries to retrieve and manipulate the data.
 
-bash
-Copy code
-psql -U username -f periodic_table.sql
-Run the example queries:
+## Files Included
 
-bash
-Copy code
-psql -U username -f queries.sql
-Requirements
-PostgreSQL
-License
+- `periodic_table.sql`: The SQL script to create the tables and insert the data.
+- `queries.sql`: Example queries to interact with the database.
+
+## Getting Started
+
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/Ramesh-kumawat/periodic-table-database.git
+    ```
+2. **Set Up the Database**:
+    - Ensure PostgreSQL is installed.
+    - Run the SQL script to set up the database:
+      ```bash
+      psql -U your_username -f periodic_table.sql
+      ```
+3. **Run the Queries**:
+    - Execute the example queries:
+      ```bash
+      psql -U your_username -f queries.sql
+      ```
+
+## Requirements
+
+- PostgreSQL
+
+## License
+
 This project is licensed under the MIT License.
+
